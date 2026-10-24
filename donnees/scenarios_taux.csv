@@ -1,0 +1,7 @@
+scenario,choc_parallele_pb,coef_court,coef_long
+Parallèle haussier,200,0.0,0.0
+Parallèle baissier,-200,0.0,0.0
+Pentification,0,-0.65,0.9
+Aplatissement,0,0.8,-0.6
+Hausse des taux courts,0,1.0,0.0
+Baisse des taux courts,0,-1.0,0.0

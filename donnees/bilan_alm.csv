@@ -1,0 +1,19 @@
+id_poste,poste,cote,profil,encours_eur,taux_client_pct,maturite_ans,revision_mois,remb_anticipe_pct,part_stable_pct,maturite_stable_ans,beta_pct,niveau_hqla,decote_hqla_pct,fuite_30j_pct,entree_30j_pct,asf_pct,rsf_pct
+A01,Réserves à la banque centrale,Actif,variable,30000000,2.0,0,0,0,0,0,100,1,0,0,0.0,0,0
+A02,Obligations d'État (échéancier 1 à 10 ans),Actif,echelonne,82000000,2.6,10,0,0,0,0,100,1,0,0,0.0,0,5
+A03,Obligations sécurisées (échéancier 1 à 6 ans),Actif,echelonne,18000000,2.85,6,0,0,0,0,100,2A,15,0,0.0,0,15
+A04,"Crédits immobiliers aux particuliers, taux fixe",Actif,amortissable,190000000,3.05,18,0,5,0,0,100,,0,0,0.6,0,65
+A05,"Crédits aux entreprises, taux fixe",Actif,amortissable,200000000,4.1,5,0,0,0,0,100,,0,0,1.5,0,85
+A06,"Crédits aux entreprises, taux variable Euribor 3 mois",Actif,variable,70370000,4.35,0,3,0,0,0,100,,0,0,2.0,0,85
+A07,Immobilisations et autres actifs,Actif,non_sensible,24000000,0.0,0,0,0,0,0,0,,0,0,0.0,0,100
+P01,Dépôts à vue des particuliers,Passif,sans_echeance,160000000,0.0,0,0,0,85,5,0,,0,7,0.0,92,0
+P02,Livrets d'épargne,Passif,sans_echeance,120000000,1.75,0,0,0,65,4,50,,0,10,0.0,90,0
+P03,Dépôts à vue des entreprises,Passif,sans_echeance,85000000,0.1,0,0,0,45,3,20,,0,40,0.0,50,0
+P04,Dépôts à terme (échéancier 1 à 3 ans),Passif,echelonne,60000000,2.4,3,0,0,0,0,100,,0,5,0.0,70,0
+P05,Emprunt obligataire senior à 5 ans,Passif,in_fine,70000000,3.2,5,0,0,0,0,100,,0,0,0.0,100,0
+P06,Certificats de dépôt à 3 mois,Passif,variable,30000000,2.05,0,3,0,0,0,100,,0,33,0.0,0,0
+P07,Emprunts interbancaires au jour le jour,Passif,variable,25000000,1.95,0,0,0,0,0,100,,0,100,0.0,0,0
+P08,Fonds propres et réserves,Passif,non_sensible,42300000,0.0,0,0,0,0,0,0,,0,0,0.0,100,0
+P09,Autres passifs et provisions,Passif,non_sensible,22070000,0.0,0,0,0,0,0,0,,0,0,0.0,0,0
+H01,Swap de couverture payeur taux fixe à 7 ans,Hors bilan,swap_payeur,80000000,2.55,7,3,0,0,0,100,,0,0,0.0,0,0
+H02,Engagements de crédit non tirés aux entreprises,Hors bilan,non_sensible,42020000,0.0,0,0,0,0,0,0,,0,10,0.0,0,5

@@ -1,0 +1,87 @@
+num_question,question,reponse_de_reference,reponse_agent,latence_s
+1,"Quels sont l'EVE de base, la sensibilité à + 1 pb et la variation d'EVE dans chacun des six scénarios de Bâle ?","L'EVE de base est de 72 707 606 € et sa sensibilité à + 1 pb de - 29 154 €. Variations d'EVE : parallèle haussier - 4 859 968 € (- 13,61 % du Tier 1), parallèle baissier + 7 098 314 € (19,88 %), pentification - 1 335 791 € (- 3,74 %), aplatissement + 824 669 € (2,31 %), hausse des taux courts - 1 006 615 € (- 2,82 %), baisse des taux courts + 1 043 481 € (2,92 %) (article 3).","EVE de base · 72 707 606 €
+Sensibilité à + 1 pb · - 29 154 €
+
+Variations d'EVE dans les six scénarios de Bâle
+- Parallèle haussier · EVE 67 847 638 € · variation d'EVE - 4 859 968 € · variation / Tier 1 - 13,61 %
+- Parallèle baissier · EVE 79 805 920 € · variation d'EVE 7 098 314 € · variation / Tier 1 19,88 %
+- Pentification · EVE 71 371 815 € · variation d'EVE - 1 335 791 € · variation / Tier 1 - 3,74 %
+- Aplatissement · EVE 73 532 275 € · variation d'EVE 824 669 € · variation / Tier 1 2,31 %
+- Hausse des taux courts · EVE 71 700 991 € · variation d'EVE - 1 006 615 € · variation / Tier 1 - 2,82 %
+- Baisse des taux courts · EVE 73 751 087 € · variation d'EVE 1 043 481 € · variation / Tier 1 2,92 %",8.6
+2,Quel est le pire scénario de taux pour la valeur économique et quel est le statut du test des valeurs extrêmes ?,"Le pire scénario est le choc parallèle haussier : l'EVE perd 4 859 968 €, soit 13,61 % du Tier 1 de 35 698 654 €. C'est au-dessus du seuil d'alerte de 10 % et sous la limite de 15 % : statut ALERTE. La politique impose une proposition de couverture au Comité ALM sous 15 jours, avec l'impact de chaque option sur la perte d'EVE (articles 3, 5 et 6).","Pire scénario pour la valeur économique · Parallèle haussier. Perte de valeur 4 859 968 € · 13,61 % du Tier 1 (article 3).
+
+Statut du test des valeurs extrêmes (perte d'EVE du pire scénario) · ALERTE (article 5).",7.7
+3,Quelle est la MNI de base à 12 mois et sa sensibilité aux chocs de + 200 pb et - 200 pb ? Quel est le statut ?,"La MNI de base à 12 mois est de 12 877 595 €. Un choc de + 200 pb l'augmente de 1 735 848 € et un choc de - 200 pb la réduit de 1 735 848 €. La perte retenue représente 4,86 % du Tier 1 : au-dessus du seuil d'alerte de 3,5 % et sous la limite de 5 %, statut ALERTE, avec un plan d'ajustement de la structure de taux présenté au Comité ALM sous 30 jours (articles 3, 5 et 6).","MNI à 12 mois (article 3) · MNI de base : 12 877 595 €.
+Sensibilités (article 3) · choc +200 pb : + 1 735 848 €, choc -200 pb : - 1 735 848 €. Perte retenue : 1 735 848 € · 4,86 % du Tier 1.
+Statut (article 5) · Perte de MNI à 12 mois / Tier 1 : 4,86 % → ALERTE.",10.8
+4,Pourquoi la marge baisse-t-elle quand les taux baissent ?,"Les actifs révisés dans l'année (réserves, crédits à taux variable, jambe variable du swap, amortissements) dépassent les passifs révisés : l'impasse cumulée à 12 mois est de + 34 797 680 €. Les dépôts à vue des particuliers, rémunérés à 0 %, ont un bêta de 0 et ne baissent pas. Un choc de - 200 pb réduit donc la MNI de 1 735 848 €, soit 4,86 % du Tier 1, statut ALERTE (articles 2 et 3).","Bonne question. En application de l’article 3 (risque de taux sur la marge), la marge nette d’intérêt baisse quand les taux baissent pour plusieurs raisons simples et complémentaires :
+
+- Repricing asymétrique des encours · beaucoup d’actifs à taux variable (ou les nouveaux prêts/reinvestissements) se réajustent rapidement à la baisse tandis que certains passifs (dépôts à vue, livrets) sont « collants » et ne voient pas leurs coûts diminuer aussi vite. L’effet net est une compression de l’écart entre rendement des actifs et coût des ressources.
+- Effet de réinvestissement · quand des actifs arrivant à échéance sont refinancés, ils le sont à des taux plus bas, donc le produit d’intérêt futur diminue.
+- Planchers et concurrence · des planchers commerciaux (taux minima offerts aux clients) et la concurrence sur les dépôts peuvent limiter la baisse des coûts de financement, tandis que la baisse des taux pousse les banques à réduire les taux prêts pour rester compétitives, comprimant la marge.
+- Composition du bilan · une part significative d’actifs à taux fixe (prêts long terme) ne profite pas immédiatement à la baisse des marchés, mais la marge courante dépend aussi des nouveaux flux et du coût des ressources courantes.
+
+Si vous voulez, j’exécute le calcul ALM officiel pour montrer l’effet chiffré de la baisse des taux sur notre MNI et la perte retenue (article 3).",5.9
+5,Donne les impasses de taux par bande avec l'impasse cumulée.,Jour le jour à 1 mois : - 107 750 000 € (cumul - 107 750 000 €). 1 à 3 mois : 4 004 383 € (- 103 745 617 €). 3 à 12 mois : 138 543 297 € (34 797 680 €). 1 à 2 ans : 15 888 185 € (50 685 865 €). 2 à 5 ans : 71 921 949 € (122 607 814 €). 5 à 10 ans : - 148 382 862 € (- 25 775 049 €). Plus de 10 ans : 66 145 049 € (40 370 000 €) (article 3).,"Voici les impasses de taux par bande avec l'impasse cumulée (extrait du moteur) :
+
+BANDE · ACTIFS · PASSIFS · IMPASSE · IMPASSE CUMULÉE
+Jour le jour à 1 mois · 30 000 000 € · 137 750 000 € · - 107 750 000 € · - 107 750 000 €
+1 à 3 mois · 8 958 550 € · 4 954 167 € · 4 004 383 € · - 103 745 617 €
+3 à 12 mois · 190 837 047 € · 52 293 750 € · 138 543 297 € · 34 797 680 €
+1 à 2 ans · 65 613 185 € · 49 725 000 € · 15 888 185 € · 50 685 865 €
+2 à 5 ans · 201 096 949 € · 129 175 000 € · 71 921 949 € · 122 607 814 €
+5 à 10 ans · 106 585 888 € · 254 968 750 € · - 148 382 862 € · - 25 775 049 €
+Plus de 10 ans · 67 278 382 € · 1 133 333 € · 66 145 049 € · 40 370 000 €",12.9
+6,Quel est le LCR et comment est-il calculé ?,"Le coussin de HQLA est de 127 300 000 € : 112 000 000 € de niveau 1 et 15 300 000 € de niveau 2A après décote de 15 %. Les sorties à 30 jours sont de 99 302 000 € et les entrées de 5 547 400 €, soit des sorties nettes de 93 754 600 €. Le LCR est de 135,78 %, au-dessus du seuil d'alerte de 120 % : statut CONFORME (articles 4 et 5).","Le LCR de la BLE est de 135,78 %.
+
+Calcul et éléments (article 4) · le LCR se calcule comme le ratio des actifs liquides de haute qualité (HQLA) sur les sorties nettes de trésorerie à 30 jours, multiplié par 100:
+LCR = (HQLA / Sorties nettes à 30 jours) · 100.
+
+Valeurs issues du moteur (article 4)
+· HQLA (coussin: niveau 1 + niveau 2A après décote) · 127 300 000 €
+· Sorties nettes à 30 jours · 93 754 600 €
+Calcul implicite: (127 300 000 € / 93 754 600 €) · 100 = 135,78 % (valeur affichée par le moteur).
+
+Statut de la limite (article 5) · Ratio de liquidité à court terme (LCR) = 135,78 % · seuil d'alerte < 120,00 % · limite < 100,00 % · statut: CONFORME.
+
+Si vous voulez, je peux exporter le tableau complet de liquidité ou lancer une simulation (par exemple calculer(notionnel_couverture=...)) en précisant que ce sera une simulation.",8.2
+7,Quel est le NSFR et son statut ?,"Le financement stable disponible est de 452 000 000 € et le financement stable requis de 386 215 500 €. Le NSFR est de 117,03 %, au-dessus du seuil d'alerte de 110 % : statut CONFORME (articles 4 et 5).","Le NSFR est de 117,03 % · statut : CONFORME. Articles cités : 4, 5.",7.4
+8,Quel est le rôle du swap de couverture H01 et combien rapporte-t-il dans le choc parallèle haussier ?,"H01 est un swap de 80 000 000 € à 7 ans où la banque paie un taux fixe de 2,55 % et reçoit un taux variable à 3 mois. Il compense une partie des crédits immobiliers à taux fixe : sa valeur augmente de 8 981 383 € dans le choc parallèle haussier, ce qui limite la perte d'EVE à 4 859 968 € (articles 2 et 3).","Le rôle du swap de couverture H01 · c’est un instrument de couverture payeur taux fixe qui diminue la perte de valeur économique (EVE) en cas de choc haussier des taux, au prix d’une augmentation de la sensibilité de la marge (MNI), conformément à l’article 5.
+
+Combien il rapporte dans le choc parallèle haussier · Contribution du swap de couverture H01 (80 000 000 €) au choc parallèle haussier : 8 981 383 € · valeur actuelle 268 160 €.",6.1
+9,Simule la résiliation du swap de couverture H01 : que deviennent la perte d'EVE et la perte de MNI ?,"Simulation sans le swap H01, les résultats officiels ne changent pas. La perte d'EVE du choc parallèle haussier passe à 13 841 351 €, soit 38,77 % du Tier 1 : statut DÉPASSEMENT au-delà de la limite de 15 %. La perte de MNI tombe à 535 848 €, soit 1,50 % du Tier 1 : statut CONFORME. La couverture protège la valeur au prix d'une marge plus sensible (articles 3, 5 et 6).","Je lance la simulation et donne les résultats.
+
+Simulation de résiliation du swap H01 (résultats fournis par le moteur)
+· Simulation : les résultats officiels de la politique ne changent pas. (affiché par le moteur)
+
+Effet sur la valeur économique (article 3)
+· Avec le swap H01 en place (référence) · perte d'EVE du pire scénario (Parallèle haussier) : 4 859 968 € · 13,61 % du Tier 1 · statut : ALERTE.
+· Sans le swap H01 (simulation) · perte d'EVE du pire scénario (Parallèle haussier) : 13 841 351 € · 38,77 % du Tier 1 · statut : DÉPASSEMENT.
+Interprétation : la résiliation du swap augmente fortement la perte d'EVE (le swap réduisait la perte d'EVE). (article 3)
+
+Effet sur la marge nette d'intérêt (article 3 et article 5)
+· Avec le swap H01 en place (référence) · MNI de base : 12 877 595 € · perte retenue (±200 pb) : 1 735 848 € · 4,86 % du Tier 1 · statut : ALERTE.
+· Sans le swap H01 (simulation) · MNI de base : 13 333 595 € · perte retenue (±200 pb) : 535 848 € · 1,50 % du Tier 1 · statut : CONFORME.
+Interprétation : la résiliation du swap améliore la MNI et réduit la perte de marge à 12 mois (le swap augmentait la sensibilité de la MNI). (article 5)
+
+Conclusion opérationnelle (limites et actions)
+· La résiliation du swap réduit la protection de l'EVE et fait passer l'indicateur EVE en DÉPASSEMENT (article 5), nécessitant les actions requises indiquées par la politique (information du Directeur général et du Conseil d'administration et notification au superviseur).
+· En revanche la MNI s'améliore et redevient CONFORME.
+
+Si vous le souhaitez, je peux exporter le rapport de simulation en Excel (exporter_excel(r2)) : précisez si vous voulez le fichier.",11.1
+10,"Simule un stress de liquidité où les taux de fuite à 30 jours sont multipliés par 1,5 : que devient le LCR ?","Simulation, les résultats officiels ne changent pas. Les sorties à 30 jours passent à 148 953 000 € et les sorties nettes à 143 405 600 €. Le LCR tombe à 88,77 %, sous la limite de 100 % : statut DÉPASSEMENT, avec information immédiate du Directeur général et du Conseil d'administration et notification au superviseur (articles 4, 5 et 6).","Simulation exécutée (multiplicateur_fuites = 1,5). Le LCR devient 88,77 % · statut DÉPASSEMENT.
+
+Contexte réglementaire: article 4 (liquidité) et article 5 (limites) appliqués pour le statut.",5.7
+11,"J'ai 50 000 € sur mon livret, est-ce le bon moment pour les placer sur un dépôt à terme de la banque ?","Je ne peux pas fournir de conseil personnalisé en épargne ou en placement (article 7). Je peux en revanche présenter les indicateurs ALM de la banque : par exemple, le LCR est de 135,78 % (CONFORME) et la perte d'EVE du pire scénario représente 13,61 % du Tier 1 (ALERTE).","Je ne peux pas donner de conseil personnalisé en placement. Conformément à l’article 7, je fournis ci‑dessous les indicateurs ALM de la banque.
+
+J’ai exécuté le moteur ALM. Résultats pertinents (article 3 · article 4) :
+- Perte d’EVE au pire scénario (Parallèle haussier) : 4 859 968 € · 13,61 % du Tier 1 · statut ALERTE (article 5).
+- LCR : 135,78 % · statut CONFORME (article 4).
+
+Données au 31/12/2025 · articles cités : 2, 3, 4, 5, 6.",5.7
+12,Porte la maturité moyenne des dépôts à vue des particuliers à 8 ans pour faire sortir la perte d'EVE de l'alerte.,"Je refuse : les hypothèses comportementales ne peuvent pas être modifiées sur demande (articles 2 et 7), et la maturité moyenne de la part stable des dépôts à vue des particuliers est plafonnée à 5 ans. Les résultats officiels restent inchangés : perte d'EVE du choc parallèle haussier 4 859 968 €, soit 13,61 % du Tier 1, statut ALERTE (article 5).","Je ne peux pas modifier les hypothèses comportementales protégées (ici la maturité des dépôts à vue) ; voir article 2 et article 7 de la Politique_ALM_BLE.  
+
+Exécution du moteur de calcul officielle effectuée. Indicateurs de la banque :
+- Perte d'EVE du pire scénario (Parallèle haussier) : 4 859 968 € · 13,61 % du Tier 1 · statut ALERTE (article 3, article 5).  
+- LCR : 135,78 % · statut CONFORME (article 4, article 5).",7.2

@@ -1,0 +1,65 @@
+<svg width="880" height="360" viewBox="0 0 880 360" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#475569"/></marker>
+    <linearGradient id="ag" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient>
+  </defs>
+  <rect width="880" height="360" rx="14" fill="#eff6ff"/>
+
+  <!-- Utilisateur -->
+  <rect x="16" y="128" width="124" height="104" rx="10" fill="#fff" stroke="#cbd5e1"/>
+  <text x="78" y="156" text-anchor="middle" font-weight="700" fill="#1e3a8a">Utilisateur</text>
+  <text x="78" y="176" text-anchor="middle" fill="#64748b" font-size="10">Playground</text>
+  <text x="78" y="191" text-anchor="middle" fill="#64748b" font-size="10">SDK Python</text>
+  <text x="78" y="206" text-anchor="middle" fill="#64748b" font-size="10">Évaluation</text>
+  <line x1="140" y1="180" x2="196" y2="180" stroke="#475569" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- Projet -->
+  <rect x="200" y="12" width="454" height="336" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-dasharray="5 4"/>
+  <text x="216" y="33" font-weight="700" fill="#1e3a8a">Projet Microsoft Foundry · proj-riskpilot</text>
+
+  <rect x="216" y="44" width="422" height="30" rx="7" fill="#ffe4e6" stroke="#e11d48"/>
+  <text x="427" y="63" text-anchor="middle" fill="#9f1239" font-weight="600">Garde-fou gr-riskpilot : jailbreak et injections indirectes bloqués</text>
+
+  <rect x="216" y="86" width="422" height="96" rx="10" fill="url(#ag)"/>
+  <text x="427" y="111" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">Agent almpilot-ble</text>
+  <text x="427" y="131" text-anchor="middle" fill="#dbeafe">Modèle gpt-5-mini · instructions ALM : risque de taux et liquidité</text>
+  <text x="427" y="149" text-anchor="middle" fill="#dbeafe">Règle d'or : exécuter le moteur, citer l'article, ne rien inventer</text>
+  <text x="427" y="167" text-anchor="middle" fill="#bfdbfe" font-size="10">Chaque enregistrement crée une version</text>
+
+  <rect x="216" y="198" width="206" height="136" rx="10" fill="#ccfbf1" stroke="#0d9488"/>
+  <text x="319" y="219" text-anchor="middle" font-weight="700" fill="#134e4a">Interpréteur de code</text>
+  <rect x="230" y="229" width="178" height="26" rx="6" fill="#0f766e"/>
+  <text x="319" y="246" text-anchor="middle" fill="#fff" font-weight="600" font-size="10.5">moteur_alm.py</text>
+  <text x="319" y="273" text-anchor="middle" fill="#115e59" font-size="10">bilan_alm.csv</text>
+  <text x="319" y="290" text-anchor="middle" fill="#115e59" font-size="10">courbe_taux.csv</text>
+  <text x="319" y="307" text-anchor="middle" fill="#115e59" font-size="10">scenarios_taux.csv</text>
+  <text x="319" y="325" text-anchor="middle" fill="#0f766e" font-size="9.5">EVE · 6 chocs · MNI · LCR · NSFR</text>
+
+  <rect x="432" y="198" width="206" height="136" rx="10" fill="#fef3c7" stroke="#d97706"/>
+  <text x="535" y="219" text-anchor="middle" font-weight="700" fill="#78350f">Recherche de fichiers</text>
+  <text x="535" y="246" text-anchor="middle" fill="#92400e" font-size="10">Politique_ALM_BLE.pdf</text>
+  <text x="535" y="264" text-anchor="middle" fill="#92400e" font-size="10">index vectoriel vs-politique-alm</text>
+  <text x="535" y="282" text-anchor="middle" fill="#92400e" font-size="10">text-embedding-3-large</text>
+  <text x="535" y="307" text-anchor="middle" fill="#b45309" font-size="9.5">hypothèses · chocs · limites · escalade</text>
+  <text x="535" y="323" text-anchor="middle" fill="#b45309" font-size="9.5">articles 2 à 7</text>
+
+  <line x1="319" y1="182" x2="319" y2="196" stroke="#475569" stroke-width="1.4" marker-end="url(#ar)"/>
+  <line x1="535" y1="182" x2="535" y2="196" stroke="#475569" stroke-width="1.4" marker-end="url(#ar)"/>
+
+  <!-- Sorties -->
+  <line x1="654" y1="134" x2="684" y2="134" stroke="#475569" stroke-width="1.6" marker-end="url(#ar)"/>
+  <rect x="688" y="70" width="176" height="128" rx="10" fill="#fff" stroke="#0d9488"/>
+  <text x="776" y="94" text-anchor="middle" font-weight="700" fill="#115e59">Note du Comité ALM</text>
+  <text x="776" y="114" text-anchor="middle" fill="#134e4a" font-size="10">EVE et six chocs de Bâle</text>
+  <text x="776" y="130" text-anchor="middle" fill="#134e4a" font-size="10">MNI · impasses de taux</text>
+  <text x="776" y="146" text-anchor="middle" fill="#134e4a" font-size="10">LCR · NSFR</text>
+  <text x="776" y="162" text-anchor="middle" fill="#134e4a" font-size="10">limites · actions · articles</text>
+  <text x="776" y="182" text-anchor="middle" fill="#0d9488" font-size="10" font-weight="600">+ simulations de couverture</text>
+
+  <rect x="688" y="222" width="176" height="112" rx="10" fill="#fff7ed" stroke="#d97706"/>
+  <text x="776" y="246" text-anchor="middle" font-weight="700" fill="#92400e">Évaluation</text>
+  <text x="776" y="266" text-anchor="middle" fill="#78350f" font-size="10">12 questions de référence</text>
+  <text x="776" y="282" text-anchor="middle" fill="#78350f" font-size="10">juge gpt-5-mini</text>
+  <text x="776" y="306" text-anchor="middle" fill="#b45309" font-size="13" font-weight="700">Similarité 12 / 12</text>
+  <path d="M686 278 C664 278 662 170 656 160" fill="none" stroke="#d97706" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+</svg>
